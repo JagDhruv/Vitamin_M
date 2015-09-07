@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text"
+        android:inputType="number"
+        android:textSize="20dp"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_iconResource="@drawable/ic_checkmark"
+        fancy:fb_radius="15dp"
+        fancy:fb_text="OK"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+</LinearLayout>

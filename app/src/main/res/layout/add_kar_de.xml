@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+  <EditText
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:textSize="20dp"
+      android:id="@+id/editText"/>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_text="Grocery"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_shopping_cart_add">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="25dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_currency_sign_dollar"
+        fancy:fb_text="Bills"
+        >
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_administrator"
+        fancy:fb_text="Clothing">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_video"
+        fancy:fb_text="Entertainment">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_monitor"
+        fancy:fb_text="Electronics">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_car"
+        fancy:fb_text="Travel">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        fancy:fb_borderColor="#E91E63"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#FFFFFF"
+        fancy:fb_radius="15dp"
+        fancy:fb_textColor="#E91E63"
+        fancy:fb_textSize="15dp"
+        fancy:fb_iconResource="@drawable/ic_add"
+        fancy:fb_text="Others">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+
+</LinearLayout>
